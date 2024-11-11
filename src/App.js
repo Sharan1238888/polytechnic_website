@@ -5,7 +5,11 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Departments from './pages/Departments';
+import Civil from './pages/Departments/Civil';
+import Ec from './pages/Departments/Ec';
+import Humanities from './pages/Departments/Humanities';
+import Pharmacy from './pages/Departments/Pharmacy';
+import Physical from './pages/Departments/Physical';
 import Students from './pages/Students';
 import Staff from './pages/Staff';
 import Contact from './pages/Contact';
@@ -19,10 +23,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/departments" element={<Departments />} />
+        <Route path="/Civil" element={<Civil />} />
         <Route path="/students" element={<Students />} />
         <Route path="/staff" element={<Staff />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/Ec" element={<Ec />} />
+        <Route path="/Humanities" element={<Humanities />} />
+        <Route path="/Pharmacy" element={<Pharmacy />} />
+        <Route path="/Physical" element={<Physical />} />
       </Routes>
       <Footer />
     </Router>

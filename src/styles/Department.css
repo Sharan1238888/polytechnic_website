@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  min-width: 250px;
+  z-index: 1;
+  border: 1px solid #ccc; /* Add a border around the dropdown to create a rectangle */
+  border-radius: 0; /* Make the dropdown rectangle-shaped */
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #e6f7ff; /* Light blue background on hover */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown span.nav-link {
+  cursor: pointer;
+}

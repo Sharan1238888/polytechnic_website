@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className="bg-primary text-white p-4">
             <div className="container">
-                <h1>Polytech Official</h1>
+                <h4>Government Polytechnic for Women Sreekantapuram Hindupur</h4>
             </div>
         </header>
     );
