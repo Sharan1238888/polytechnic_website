@@ -11,7 +11,12 @@ edit pages
     /pages
         Home.js
         About.js
-        Departments.js
+        /Departments
+                civil.jsx
+                ec.jsx
+                humanites.jsx
+                physical.jsx
+                style.css  
         Students.js
         Staff.js
         Contact.js
