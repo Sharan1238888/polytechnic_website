@@ -14,6 +14,7 @@ export default function Civil() {
 
   return (
      <div className="civil-engineering-department">
+        <h1 className="left-aligned-heading">Department of Civil Engineering</h1>
       <div className="breadcrumb">
         <p>Home / Departments / Department of Civil Engineering</p>
       </div>
@@ -45,7 +46,6 @@ export default function Civil() {
         </button>
       </div>
 
-      <h1>Department of Civil Engineering</h1>
 
       {activeTab === 'Faculty' && (
         <div className="staff-container">
